@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HandyMan DIY</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        header {
+            background: #0a8ca6;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background: #0a6b82;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://images.pexels.com/photos/8961067/pexels-photo-8961067.jpeg') center/cover no-repeat;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .hero button {
+            padding: 10px 20px;
+            background: #27ae60;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .section {
+            padding: 40px;
+            text-align: center;
+            background: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #0a6b82;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+            margin-top: 40px;
+        }
+            /* Added smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }/* Animate hero text */
+    .hero div {
+        animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Responsive layout */
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 28px;
+        }
+        .hero p {
+            font-size: 16px;
+        }
+        nav a {
+            display: inline-block;
+            margin: 5px;
+        }
+        .section {
+            margin: 10px;
+            padding: 25px;
+        }
+    }
+</style>
+
+</head>
+<body>
+    <header>
+    <h1>My Website</h1>
+        <p>project by <div>SAMUEL ALEX MONTGOMERY (9436)</div></p>
+</header>
+
+<nav>
+    <a href="homepage.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="Our Service.html">My Services</a>
+    <a href="profolo.html">Portfolio</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<section class="hero" id="home">
+    <div>
+        <h1>Welcome to Abscrat</h1>
+        <p>At Abscrat DIY, we provide solutions to all your worries.</p>
+        <button>Learn More</button>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+        We are dedicated to offering reliable DIY, repair, and handyman services.
+        Our focus is to help homeowners solve everyday problems with professional, quality workmanship.
+    </p>
+</section>
+
+<section class="section" id="services">
+    <h2>Our Services</h2>
+    <p>We provide home repairs, installations, maintenance and more.</p>
+</section>
+
+<section class="section" id="portfolio">
+    <h2>Portfolio</h2>
+    <p>View some of our completed projects and satisfied customers.</p>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out for any service or inquiry. We are here to help.</p>
+</section>
+
+<footer>
+    <p>© 2025 HandyMan DIY. All Rights Reserved.</p>
+    <p>A Project by Samuel Montgomery</p>
+    <a href="Button.html"><button style="padding: 10px 20px;
+            background: #27ae60;
+            color: #fff;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;">Follow</button></a>
+ 
+</footer>
+
+</body>
+
+</html>
+
+
